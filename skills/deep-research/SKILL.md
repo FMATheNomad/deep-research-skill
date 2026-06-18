@@ -1,6 +1,6 @@
 ---
 name: deep-research
-description: "Massive autonomous web research via AI-powered browsing. Use this skill when the user needs to research a topic deeply, compare information across multiple sources, gather data from many websites, or conduct comprehensive web research. Automatically searches, fetches dozens of pages in parallel, and synthesizes findings. Triggers: 'research this topic', 'cari informasi lengkap tentang', 'deep research', 'compare X and Y', 'gather data from multiple sources', 'teliti tentang'. Far more efficient than browser automation for research — uses direct content fetching in parallel."
+description: "Massive autonomous web research via AI-powered browsing. Use this skill when the user needs to research a topic deeply, compare information across multiple sources, gather data from many websites, or conduct comprehensive web research. Automatically searches, fetches dozens of pages in parallel, and synthesizes findings. Triggers: 'research this topic', 'search for complete info about', 'deep research', 'compare X and Y', 'gather data from multiple sources', 'research about'. Far more efficient than browser automation for research — uses direct content fetching in parallel."
 compatibility: opencode
 metadata:
   author: FMA Software Labs
@@ -17,7 +17,7 @@ A pipeline for conducting deep, multi-source web research. Uses OpenCode's built
 ## How It Works
 
 ```
-User: "Cari informasi lengkap tentang antimatter"
+User: "Search for complete info about antimatter"
 
 Agent:
   Step 1: websearch("antimatter physics")          → 10+ source URLs

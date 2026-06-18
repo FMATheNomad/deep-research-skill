@@ -51,7 +51,7 @@ Firecrawl is great, but:
 
 ## 🚀 Installation
 
-### One-Liner (Semua Agent — Recommended)
+### One-Liner (All Agents — Recommended)
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/FMATheNomad/deep-research-skill/main/skills/deep-research/SKILL.md \
@@ -100,7 +100,7 @@ graph TD
 ### Example Session (Real — 100+ Sources)
 
 ```
-You: "Deep research tentang teknologi DNA sequencing terbaru, cari 50+ sumber"
+You: "Deep research about latest DNA sequencing technology, search 50+ sources"
 
 Agent (deep research activated):
   → websearch("DNA sequencing 2025 2026 breakthroughs")
@@ -171,8 +171,8 @@ Agent (deep research activated):
 ## ⚡ Pro Tips
 
 1. **Enable websearch** — start OpenCode with `OPENCODE_ENABLE_EXA=1 opencode`
-2. **Ask for 100+ sources** — "deep research about X, cari 100+ sumber"
-3. **Use sub-agents** — "pakai 3 sub-agent, masing-masing riset aspek berbeda"
+2. **Ask for 100+ sources** — "deep research about X, search 100+ sources"
+3. **Use sub-agents** — "use 3 sub-agents, each researching a different aspect"
 4. **Specify format** — "compare X and Y in a table", "give me a structured report"
 5. **Iterate** — ask follow-up questions to go deeper
 6. **Combine with agent-browser** — for pages that need JS/clicking, use agent-browser then webfetch
