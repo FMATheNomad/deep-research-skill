@@ -6,13 +6,20 @@
 
 [![GitHub Release](https://img.shields.io/github/v/release/FMATheNomad/deep-research-skill?style=for-the-badge&logo=github&color=blue)](https://github.com/FMATheNomad/deep-research-skill/releases)
 [![GitHub Stars](https://img.shields.io/github/stars/FMATheNomad/deep-research-skill?style=for-the-badge&logo=github&color=yellow)](https://github.com/FMATheNomad/deep-research-skill/stargazers)
-[![GitHub License](https://img.shields.io/github/license/FMATheNomad/deep-research-skill?style=for-the-badge&color=green)](LICENSE)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4%EF%B8%8F-30363D?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FMATheNomad)
+[![GitHub License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![OpenCode](https://img.shields.io/badge/OpenCode-Skill-6C47FF?style=for-the-badge&logo=opencode)](https://opencode.ai)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
-[![Made by Solo Founder](https://img.shields.io/badge/Made%20by-Solo%20Founder-FF6B6B?style=for-the-badge)](https://fmasoftwarelabs.up.railway.app)
-[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-30363D?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FMATheNomad)
 
-**[Install](#-installation) • [Usage](#-usage) • [How It Works](#-how-it-works) • [Templates](#-research-templates) • [vs Firecrawl](#-vs-firecrawl) • [Contributing](CONTRIBUTING.md)**
+---
+
+# ⭐️ Support This Project ⭐️
+
+**This is a free, open-source skill built by a solo founder. If it saves you time or money, please:**
+
+[![Star](https://img.shields.io/badge/⭐️_Star_this_repo-Support_the_project-yellow?style=for-the-badge)](https://github.com/FMATheNomad/deep-research-skill/stargazers)
+[![Sponsor](https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_Sponsor_on_GitHub-Support_the_creator-30363D?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FMATheNomad)
+
+**Every star & sponsor helps a solo founder keep building free tools for everyone.** 🙏
 
 ---
 
@@ -190,23 +197,22 @@ deep-research-skill/
 
 Add new research templates, improve the pipeline, or suggest features. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## 💖 Support
-
-- ⭐ Star the repo
-- 🐛 Report issues
-- 🔧 Submit PRs
-- ☕ [Sponsor](https://github.com/sponsors/FMATheNomad)
-
-## 📄 License
-
-MIT © [FMA Software Labs](https://fmasoftwarelabs.up.railway.app)
-
 <div align="center">
 
 ---
 
+## ⭐️ Support the Project ⭐️
+
 **Built by a solo founder who got tired of API keys and credit limits.**  
-*Free research for everyone.*
+If this skill helps you, please support it — every bit counts:
+
+[![Star](https://img.shields.io/badge/⭐️_Star_this_Repo-1_click-yellow?style=for-the-badge)](https://github.com/FMATheNomad/deep-research-skill/stargazers)
+[![Sponsor](https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_Sponsor_on_GitHub-Support_a_solo_founder-30363D?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FMATheNomad)
+[![Share](https://img.shields.io/badge/🐦_Share_on_X-Tell_the_world-000000?style=for-the-badge&logo=x)](https://x.com/intent/tweet?text=🔥%20Firecrawl%20alternative%20-%20completely%20free%2C%20no%20API%20keys.%20Deep%20research%20skill%20for%20AI%20coding%20agents.%20Search%20%26%20read%20dozens%20of%20pages%20in%20parallel.%20%F0%9F%94%AC&url=https://github.com/FMATheNomad/deep-research-skill)
+
+---
+
+*Free research for everyone. Open source. MIT licensed.*
 
 [![FMA Software Labs](https://img.shields.io/badge/FMA%20Software%20Labs-000000?style=for-the-badge)](https://fmasoftwarelabs.up.railway.app)
 [![X / Twitter](https://img.shields.io/badge/Follow-%40fmathenomad-000000?style=for-the-badge&logo=x)](https://x.com/fmathenomad)
