@@ -1,0 +1,32 @@
+name: Validate SKILL.md
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check SKILL.md exists
+        run: |
+          if [ ! -f skills/deep-research/SKILL.md ]; then
+            echo "SKILL.md not found!"
+            exit 1
+          fi
+          echo "✅ SKILL.md found"
+      - name: Validate frontmatter
+        run: |
+          python3 -c "
+          import yaml
+          with open('skills/deep-research/SKILL.md') as f:
+              content = f.read()
+          parts = content.split('---', 2)
+          data = yaml.safe_load(parts[1])
+          assert data.get('name') == 'deep-research', 'Name mismatch'
+          assert data.get('description'), 'Description missing'
+          print('✅ Frontmatter valid')
+          print(f'  Name: {data[\"name\"]}')
+          "
