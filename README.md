@@ -2,7 +2,7 @@
 
 # 🔬 Deep Research Skill
 
-### *Massive autonomous web research for AI coding agents — no API keys, no limits, completely free*
+### *Browse hundreds of sources in parallel — like DeepSeek, but inside your AI coding agent. No API keys, no limits, completely free.*
 
 [![GitHub Release](https://img.shields.io/github/v/release/FMATheNomad/deep-research-skill?style=for-the-badge&logo=github&color=blue)](https://github.com/FMATheNomad/deep-research-skill/releases)
 [![GitHub Stars](https://img.shields.io/github/stars/FMATheNomad/deep-research-skill?style=for-the-badge&logo=github&color=yellow)](https://github.com/FMATheNomad/deep-research-skill/stargazers)
@@ -23,7 +23,7 @@
 
 ---
 
-> **Firecrawl who?** This skill gives your AI agent the power to search, fetch, and synthesize information from **dozens of web pages in parallel** — completely free, no API keys, no accounts, no limits.
+> **Like DeepSeek's web research, but inside your AI coding agent.** This skill gives your AI agent the power to search, fetch, and synthesize information from **hundreds of web pages in parallel** — completely free, no API keys, no accounts, no limits. One prompt → agent autonomously searches, reads 100+ sources, and returns a synthesized report with citations.
 
 </div>
 
@@ -42,11 +42,12 @@ Firecrawl is great, but:
 | Feature | Description |
 |---------|-------------|
 | **🔍 Multi-Query Search** | Searches from multiple angles for comprehensive coverage |
-| **⚡ Parallel Fetching** | Fetches 10-30+ pages simultaneously |
+| **⚡ Parallel Fetching** | Fetches **100+ pages** simultaneously like DeepSeek |
 | **🧠 AI-Powered Synthesis** | Agent reads & synthesizes all content intelligently |
 | **📊 Structured Output** | Comparison tables, deep dives, summaries with citations |
 | **🔓 Completely Free** | No API keys, no accounts, no credit limits |
 | **📚 Research Templates** | Comparison, technical, market research — ready to use |
+| **🤖 Autonomous Workflow** | One prompt → search → fetch → synthesize → report |
 
 ## 🚀 Installation
 
@@ -73,11 +74,11 @@ curl -o ~/.config/opencode/skills/deep-research/SKILL.md \
 
 ```mermaid
 graph TD
-    A[User: Research Topic X] --> B[websearch: multiple queries]
-    B --> C[Collect 10-30+ URLs]
-    C --> D[webfetch: ALL URLs in parallel]
-    D --> E[Agent reads & synthesizes]
-    E --> F[Structured Report with Sources]
+    A[User: One Research Prompt] --> B[websearch: 5-10 queries from different angles]
+    B --> C[Collect 100+ URLs across all queries]
+    C --> D[webfetch: ALL 100+ pages in parallel]
+    D --> E[AI agent reads & synthesizes every source]
+    E --> F[Structured Report with Citations]
     
     style A fill:#6C47FF,color:#fff
     style B fill:#4CAF50,color:#fff
@@ -85,35 +86,46 @@ graph TD
     style F fill:#f44336,color:#fff
 ```
 
-### Example Session
+### Example Session (Real — 100+ Sources)
 
 ```
-You: "Cari informasi lengkap tentang quantum computing"
+You: "Deep research tentang teknologi DNA sequencing terbaru, cari 50+ sumber"
 
 Agent (deep research activated):
-  → websearch("quantum computing explained")
-  → websearch("quantum computing 2025 2026 breakthroughs")
-  → websearch("quantum computing companies")
-  → websearch("quantum computing vs classical")
-  → Collected 28 URLs from Wikipedia, IBM, Nature, MIT, etc.
+  → websearch("DNA sequencing 2025 2026 breakthroughs")
+  → websearch("next generation sequencing technology latest")
+  → websearch("long read sequencing pacbio nanopore")
+  → websearch("DNA sequencing market 2026")
+  → websearch("AI in genomics 2025")
+  → Collected 120+ URLs from Wikipedia, Nature, Illumina, PacBio, etc.
+
+  → Spawning 3 sub-agents in parallel:
+     → Agent 1: Research Illumina + Element Biosciences + MGI
+     → Agent 2: Research Oxford Nanopore + PacBio HiFi
+     → Agent 3: Research AI applications + market trends
+     
+  → All 3 agents fetching 40+ pages each in parallel...
   
-  → Fetching 28 pages in parallel...
+  → Synthesizing all findings from 100+ sources...
   
-  → Synthesizing findings from all sources...
+  → 📋 Research: DNA Sequencing Technology 2025-2026
   
-  → 📋 Research: Quantum Computing
-  
-    Summary: Quantum computing leverages quantum mechanics...
+    Summary: 3 technology generations coexisting...
     
     Key Findings:
-    1. Current state: ...
-    2. Major players: ...
-    3. Breakthroughs in 2025-2026: ...
+    1. Illumina 5-base solution (2026) — detect 5 DNA bases in 1 assay
+    2. PacBio HiFi — 99.9% accuracy, $345/genome
+    3. Oxford Nanopore — portable, real-time, ultra-long reads
+    4. Element AVITI — new chemistry disrupting pricing
     
-    Sources:
-    - Wikipedia — overview & history
-    - IBM Quantum — current technology
-    - Nature — latest research papers
+    Sources (100+):
+    - Wikipedia — history & methods
+    - Illumina — NGS technology
+    - Oxford Nanopore — nanopore tech
+    - PacBio — HiFi sequencing
+    - Nature — cancer research papers
+    - Google Scholar — 59+ cited papers
+    - Element Biosciences — Avidite chemistry
 ```
 
 ## 📋 Research Templates
@@ -148,26 +160,27 @@ Agent (deep research activated):
 ## ⚡ Pro Tips
 
 1. **Enable websearch** — start OpenCode with `OPENCODE_ENABLE_EXA=1 opencode`
-2. **Ask for depth** — "deep research about X, minimal 20 sources"
-3. **Specify format** — "compare X and Y in a table", "give me a structured report"
-4. **Iterate** — ask follow-up questions to go deeper
-5. **Combine with agent-browser** — for pages that need JS/clicking, use agent-browser then webfetch
+2. **Ask for 100+ sources** — "deep research about X, cari 100+ sumber"
+3. **Use sub-agents** — "pakai 3 sub-agent, masing-masing riset aspek berbeda"
+4. **Specify format** — "compare X and Y in a table", "give me a structured report"
+5. **Iterate** — ask follow-up questions to go deeper
+6. **Combine with agent-browser** — for pages that need JS/clicking, use agent-browser then webfetch
 
-## 🆚 vs Firecrawl
+## 🆚 DeepSeek vs Firecrawl
 
-| Feature | Firecrawl | **Deep Research Skill** |
-|---------|-----------|------------------------|
-| 💰 **Cost** | Free tier (500K credits) | **Unlimited free** |
-| 🔑 **API Key** | Required | **Not needed** |
-| 🏗 **Self-host** | Docker required | **Nothing to host** |
-| 🔍 **Search** | Built-in | via `websearch` (Exa) |
-| 📄 **Scrape** | Built-in | via `webfetch` |
-| ⚡ **Parallel** | ✅ Yes | ✅ **Agent batches** |
-| 🧠 **Synthesis** | Separate API | **Built into agent** |
-| 📜 **License** | AGPL-3.0 | **MIT** |
-| 🔌 **Setup** | CLI + API key | **Skill only** |
+| Feature | DeepSeek App | Firecrawl | **Deep Research Skill (Ours)** |
+|---------|-------------|-----------|------------------------------|
+| 💰 **Cost** | Free (limited) | Free tier (500K credits) | **Unlimited free** |
+| 🔑 **API Key** | Not needed | Required | **Not needed** |
+| 🌐 **Hundreds of sources** | ✅ Yes | ✅ Yes | **✅ Yes — agent batches** |
+| 🧠 **AI synthesis** | ✅ Built-in | Separate API | **✅ Built into agent** |
+| 🔌 **Works inside coding agent** | ❌ No | ❌ No (separate CLI) | **✅ Native OpenCode/Claude** |
+| 🔍 **Search** | Built-in | Built-in | via `websearch` (Exa) |
+| 📄 **Scrape** | Built-in | Built-in | via `webfetch` |
+| 📜 **License** | Proprietary | AGPL-3.0 | **MIT** |
+| 🛠 **Customizable** | ❌ No | Limited | **✅ Full control** |
 
-**Bottom line:** Firecrawl is better for automated crawling at scale (thousands of pages). Deep Research Skill is better for **intelligent research** — searching, reading, and synthesizing from dozens of pages with zero cost.
+**Bottom line:** DeepSeek is great for chat-based research. Firecrawl is better for automated crawling. **Deep Research Skill** is the only one that gives you **DeepSeek-like massive parallel research directly inside your AI coding agent** — completely free and open source.
 
 ## 🗺 Roadmap
 
