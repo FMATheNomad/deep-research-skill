@@ -51,24 +51,35 @@ Firecrawl is great, but:
 
 ## 🚀 Installation
 
-### One-Click
+### One-Liner (Semua Agent — Recommended)
 
 ```bash
-npx skills add FMATheNomad/deep-research-skill@deep-research -g -y
+curl -fsSL https://raw.githubusercontent.com/FMATheNomad/deep-research-skill/main/skills/deep-research/SKILL.md \
+  -o ~/.agents/skills/deep-research/SKILL.md
 ```
 
-### Manual — OpenCode
+`~/.agents/skills/` is compatible with **OpenCode, Claude Code, Cursor, Codex, Windsurf, Cline**, and all tools that support the Agent Skills standard.
+
+### OpenCode
 
 ```bash
 mkdir -p ~/.config/opencode/skills/deep-research
-curl -o ~/.config/opencode/skills/deep-research/SKILL.md \
-  https://raw.githubusercontent.com/FMATheNomad/deep-research-skill/main/skills/deep-research/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/FMATheNomad/deep-research-skill/main/skills/deep-research/SKILL.md \
+  -o ~/.config/opencode/skills/deep-research/SKILL.md
+```
+
+### Claude Code
+
+```bash
+mkdir -p ~/.claude/skills/deep-research
+curl -fsSL https://raw.githubusercontent.com/FMATheNomad/deep-research-skill/main/skills/deep-research/SKILL.md \
+  -o ~/.claude/skills/deep-research/SKILL.md
 ```
 
 ### Prerequisites
 
-- [OpenCode](https://opencode.ai) installed
-- Start with `OPENCODE_ENABLE_EXA=1 opencode` to enable `websearch`
+- [OpenCode](https://opencode.ai) installed or any AI coding agent
+- Start with `OPENCODE_ENABLE_EXA=1 opencode` to enable `websearch` (OpenCode only)
 
 ## 🔬 How It Works
 
