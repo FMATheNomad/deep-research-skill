@@ -9,6 +9,7 @@
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4%EF%B8%8F-30363D?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FMATheNomad)
 [![GitHub License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![OpenCode](https://img.shields.io/badge/OpenCode-Skill-6C47FF?style=for-the-badge&logo=opencode)](https://opencode.ai)
+[![skills.sh](https://skills.sh/b/FMATheNomad/deep-research-skill)](https://skills.sh/FMATheNomad/deep-research-skill)
 
 ---
 
